@@ -1,5 +1,5 @@
 @echo off
-rem RunBatch 実行ディレクトリを固定するため。
-rem パスをべた書きするあいだはこういった措置が必要。
+rem RunBatch
+rem We have to run our programs in this directory because pathes of resource files are written on the source file.
 bin\run.exe
  
